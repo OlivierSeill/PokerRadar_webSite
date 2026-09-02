@@ -1,7 +1,24 @@
-toggle {
-    display: block;
+@font-face {
+    font-family: 'Anton';
+    src: url("../fonts/Anton/Anton-Regular.ttf") format('ttf');
 }
 
-#connexion {
-    display: none;
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format('ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format('ttf');
+    font-style: italic;
+}
+
+/* a {
+    font-family: "Anton";
+} */
+
+form>* {
+    margin-top: 20px;
 }

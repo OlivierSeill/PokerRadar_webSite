@@ -1,0 +1,24 @@
+{
+  "name": "pokerradar_website",
+  "version": "1.0.0",
+  "description": "Projet personnel, mené durant la formation Dév. Web/Web mobile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlivierSeill/PokerRadar_webSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OlivierSeill/PokerRadar_webSite/issues"
+  },
+  "homepage": "https://github.com/OlivierSeill/PokerRadar_webSite#readme",
+  "dependencies": {
+    "dompurify": "^3.4.14"
+  }
+}
