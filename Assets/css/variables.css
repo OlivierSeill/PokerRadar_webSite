@@ -1,0 +1,12 @@
+@import url(fonts.css);
+
+:root {
+    --main-font : "Anton", Arial, sans serif;
+    --secondary-font : "Montserrat", Arial, sans serif;
+    --regular-font : "Hind", Arial, sans serif;
+    --primary-color : #FFFFFF;
+    --background-color : #252525;
+    --NavBar-color : #1d1d1d;
+    --UI-color : #E64343;
+    --contrast-color: #2D8052;
+}

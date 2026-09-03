@@ -1,24 +1,59 @@
-@font-face {
-    font-family: 'Anton';
-    src: url("../fonts/Anton/Anton-Regular.ttf") format('ttf');
+/* Import des fichiers CSS */
+@import url(fonts.css);
+@import url(variables.css);
+
+/* Configuration de la barre de navigation : */
+
+nav, #menuLegales {
+    background-color: var(--NavBar-color);
 }
 
-@font-face {
-    font-family: 'Montserrat';
-    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format('ttf');
-    font-style: normal;
+a { 
+    font-family: var(--secondary-font);
+    font-weight: 600;
 }
 
-@font-face {
-    font-family: 'Montserrat';
-    src: url("../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format('ttf');
-    font-style: italic;
+#menuLegales>li>a:hover {
+    background-color: var(--contrast-color) ;
 }
 
-/* a {
-    font-family: "Anton";
-} */
+#connexion>h2 {
+    font-family: var(--main-font);
+    color: var(--primary-color);
+}
 
-form>* {
+form {
+    display: block;
+}
+
+form > * {
     margin-top: 20px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+#connexion>a {
+    color: var(--primary-color);
+}
+
+#connexion>a:hover {
+    color: var(--contrast-color);
+}
+
+#currentPage, #currentMenu {
+    font-weight: bolder;
+}
+
+.submit-container button {
+    background-color: var(--contrast-color);
+    color: var(--primary-color);
+    font-weight:500;
+}
+
+.submit-container button:last-child {
+    background-color: var(--UI-color);
+}
+
+body {
+    height : 2000px
 }

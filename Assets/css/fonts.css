@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Anton';
+    src: 
+    local('Anton'),
+    url("../fonts/Anton/Anton-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: 
+    local('Monsterrat'),
+    url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: 
+    local('Montserrat'),
+    url("../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format('truetype');
+    font-style: italic;
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: 
+    local("Hind"),
+    url("../fonts/hind/Hind-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight:400;
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: 
+    local("Hind"),
+    url("../fonts/hind/Hind-SemiBold.ttf") format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: 
+    local("Hind"),
+    url("../fonts/hind/Hind-Bold.ttf") format('truetype');
+    font-style: normal;
+    font-weight: bolder;
+}

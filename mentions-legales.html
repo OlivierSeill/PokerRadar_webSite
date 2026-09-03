@@ -12,14 +12,16 @@
 
 <body>
 <!-- Bar de navigation responsive via Bootstrap : -->
-    <nav class="navbar fixed-top navbar-expand-lg bg-dark border-bottom border-body d-lg-block" data-bs-theme="dark">
+    <nav class="navbar fixed-top navbar-expand-lg border-bottom border-body d-lg-block">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            <button class="navbar-toggler border-white text-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <svg alt="icon" width="30" height="24" class="d-block d-lg-inline-block text-align-top m-auto text-white">
+                    <use href="Assets/img/icons/list.svg" width="30" height="24"/>
+                </svg>
             </button>
     
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand text-white" href="index.html">
                 <img src="Assets/img/logoipsum.svg" alt="Logo" width="30" height="24"
                     class="d-block d-lg-inline-block m-auto">
                 PokerRadar
@@ -29,39 +31,40 @@
 <!-- Pensez à class="nav-link active" aria-current="page" sur les pages actives -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="tournois.html">Les tournois live</a>
+                        <a class="nav-link text-white" href="tournois.html">Les tournois live</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="outils.html">Les outils poker</a>
+                        <a class="nav-link text-white" href="outils.html">Les outils poker</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a id="currentMenu" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Pages légales
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item active" aria-current="page" href="mentions-legales.html">Les mentions légales</a></li>
-                            <li><a class="dropdown-item" href="politique-de-confidentialite.html">Politique de confidentialité</a></li>
-                            <li><a class="dropdown-item" href="cgu.html">Les C.G.U.</a></li>
+                        <ul id="menuLegales" class="dropdown-menu">
+                            <li><a id="currentPage" class="dropdown-item text-white" aria-current="page" href="mentions-legales.html">Les mentions légales</a></li>
+                            <li><a class="dropdown-item text-white" href="politique-de-confidentialite.html">Politique de confidentialité</a></li>
+                            <li><a class="dropdown-item text-white" href="cgu.html">Les C.G.U.</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="mon-compte.html">Mon compte</a>
+                        <a class="nav-link text-white" href="mon-compte.html">Mon compte</a>
                     </li>
                 </ul>
             </div>
 
-            <a id="connectButton" class="navbar-brand order-lg-3" href="#">
-                <img src="Assets/img/icons/connexion.svg" alt="Logo" width="30" height="24"
-                    class="d-block d-lg-inline-block text-align-top m-auto">
+            <a id="connectButton" class="navbar-brand order-lg-3 text-white" href="#">
+                <svg alt="icon" width="30" height="24" class="d-block d-lg-inline-block text-align-top m-auto text-white">
+                    <use href="Assets/img/icons/connexion.svg" width="30" height="24"/>
+                </svg>
                 Connexion
             </a>
         </div>
 
 <!-- Menu connexion/création de compte afficher via JS : -->
         <div id="connexion" style="display: none">
-            <h2 style="color: white;">Connectez-vous ou rejoignez la communauté !</h2>
+            <h2>Connectez-vous ou rejoignez la communauté !</h2>
             <form action="#" method="POST">
-                <label style="color: white;" for="email">Email :</label>
+                <label for="email">Email :</label>
                 <input type="email" id="email" name="email" placeholder="exemple@mail.com" required autocomplete="email">
             
                 <div class="submit-container">
