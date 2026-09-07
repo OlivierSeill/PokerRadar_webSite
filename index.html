@@ -21,18 +21,15 @@
                 </svg>
             </button>
 
-<!-- text-white -->
-            <a class="navbar-brand text-white" href="#">
+            <a id="homeButton" class="navbar-brand text-white" href="#">
                 <img src="Assets/img/logoipsum.svg" alt="Logo" width="30" height="24"
                     class="d-block d-lg-inline-block m-auto">
                 PokerRadar
             </a>
     
             <div class="collapse navbar-collapse order-2 " id="navbarTogglerDemo03">
-<!-- Pensez à class="nav-link active" aria-current="page" sur les pages actives -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-<!-- text-white -->
                         <a class="nav-link text-white" href="tournois.html">Les tournois live</a>
                     </li>
                     <li class="nav-item">
@@ -79,6 +76,17 @@
             <a href="creer-son-compte.html">Pas encore inscrit ? Créez votre compte!</a>
         </div>
     </nav>
+
+<!-- Section Main avec cards des prochains tournois : -->
+    <main class="container-xxl px-0">
+        <h2>Les prochains tournois :</h2>
+    
+        <div id="card_container" class="card-container row justify-content-center">
+        </div>
+        
+        <a class="cta" href="tournois.html">Découvrir tous les tournois</a>
+
+    </main>
 
 </body>
 </html>

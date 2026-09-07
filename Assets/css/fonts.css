@@ -1,3 +1,5 @@
+/* ------Récupération des polices : */
+
 @font-face {
     font-family: 'Anton';
     src: 
@@ -31,7 +33,7 @@
     local("Hind"),
     url("../fonts/hind/Hind-Regular.ttf") format('truetype');
     font-style: normal;
-    font-weight:400;
+    font-weight: 200;
 }
 
 @font-face {
@@ -51,3 +53,37 @@
     font-style: normal;
     font-weight: bolder;
 }
+
+/* ------ Ajout des breakpoints pour les tailles de police : */
+
+#connexion>h2 {
+    font-size: 1.2rem;
+}
+
+#connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, #connexion > a {
+    font-size: 0.75rem;
+}
+
+
+/* ------ Changement taille tablette */
+@media only screen and (min-width:768px) {
+    #connexion>h2 {
+    font-size: 1.6rem;
+}
+
+#connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, #connexion > a {
+    font-size: 0.85rem;
+}
+}
+
+/* ------ Changement taille desktop */
+@media only screen and (min-width:1024px) {
+    #connexion>h2 {
+    font-size: 2rem;
+}
+
+#connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, #connexion > a {
+    font-size: 1rem;
+}
+}
+

@@ -5,8 +5,8 @@
     --secondary-font : "Montserrat", Arial, sans serif;
     --regular-font : "Hind", Arial, sans serif;
     --primary-color : #FFFFFF;
-    --background-color : #252525;
-    --NavBar-color : #1d1d1d;
+    --secondary-color :#1d1d1d;
+    --NavBar-color : #252525;
     --UI-color : #E64343;
     --contrast-color: #2D8052;
 }
