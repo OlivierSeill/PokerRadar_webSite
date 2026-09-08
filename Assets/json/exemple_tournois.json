@@ -1,0 +1,78 @@
+{
+    "tournois":
+        [
+            {
+                "name": "Tuesday Knock-Out",
+                "variante": "Texas Hold'em No Limit",
+                "date":{
+                    "day":8,
+                    "month":9,
+                    "year":2026
+                },
+                "fee": 100,
+                "localisation" : {
+                    "lieu":"Casino Barrière",
+                    "ville":"Bordeaux",
+                    "postCode":"33300",
+                    "adress":"Rue du Cardinal Richaud"
+                },
+                "url":"https://www.casinosbarriere.com/bordeaux",
+                "poster":"assets/img/poster_tournois/bordeaux.jpg"
+                
+            },
+            {
+                "name": "KOP SuperStack",
+                "variante": "Texas Hold'em No Limit",
+                "date":{
+                    "day":11,
+                    "month":9,
+                    "year":2026
+                },
+                "fee": 125,
+                "localisation" : {
+                    "lieu":"Casino Partouche",
+                    "ville":"Pornic",
+                    "postCode":"44210",
+                    "adress":"30 rue du Canal"
+                },
+                "url":"https://casino-pornic.partouche.com/",
+                "poster":"assets/img/poster_tournois/pornic.png"
+            },
+            {
+                "name": "TPS Sunday Lovers",
+                "variante": "Texas Hold'em No Limit",
+                "date":{
+                    "day":20,
+                    "month":9,
+                    "year":2026
+                },
+                "fee": 100,
+                "localisation" : {
+                    "lieu":"Casino Joa",
+                    "ville":"Gujan-Mestras",
+                    "postCode":"33470",
+                    "adress":"2 Avenue des loisirs"
+                },
+                "url":"https://www.joa.fr/casinos/gujan-mestras",
+                "poster":""
+            },
+            {
+                "name": "BigStack 90",
+                "variante": "Texas Hold'em No Limit",
+                "date":{
+                    "day":19,
+                    "month":9,
+                    "year":2026
+                },
+                "fee": 90,
+                "localisation" : {
+                    "lieu":"Casino Royal Concorde",
+                    "ville":"Saint Gilles de Croix de Vie",
+                    "postCode":"85800",
+                    "adress":"Quai Garcie Ferrande"
+                },
+                "url":"https://www.casinosaintgillescroixdevie.com/",
+                "poster":""
+                }
+        ]
+}

@@ -1,8 +1,8 @@
-/* Import des fichiers CSS */
+/*================= Import des fichiers CSS */
 @import url(fonts.css);
 @import url(variables.css);
 
-/* Configuration de la barre de navigation : */
+/*================= Configuration de la barre de navigation : */
 
 nav, #menuLegales {
     background-color: var(--NavBar-color);
@@ -63,16 +63,18 @@ form > * {
     background-color: var(--UI-color);
 }
 
-/* Configuration de la section tournois : */
+/*================= Configuration du Main : */
 main {
     margin-top: 100px;
     margin-bottom: 40px;
     color: var(--secondary-color);
     font-family: var(--regular-font);
     text-align: center;
+    display: grid;
+    row-gap: 50px;
 }
 
-main>h2 {
+section>h2 {
     font-family: var(--main-font);
     width:fit-content ;
     margin: auto;
@@ -81,6 +83,12 @@ main>h2 {
     background-repeat: no-repeat;
     background-position: left bottom;
     padding-bottom: 2px;
+}
+
+/*================= Configuration de la section tournois : */
+.tournaments-display {
+    display: grid;
+    justify-items: center;
 }
 
 #card_container {
@@ -97,6 +105,7 @@ main>h2 {
     transition: box-shadow 1s ease-in-out;
     box-shadow: 0px 5px 5px grey;
     border-radius: 7px 7px 7px 7px;
+    
 }
 
 .card_img {
@@ -148,4 +157,11 @@ main>h2 {
 
 .cta:hover {
     font-weight: bolder;
+}
+
+/*================= Configuration de la section Outils : */
+.tools-display {
+    display: grid;
+    row-gap : 20px;
+    justify-items: center;
 }

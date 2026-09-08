@@ -61,7 +61,7 @@
 }
 
 #connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, #connexion > a {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
 }
 
 
@@ -72,12 +72,12 @@
 }
 
 #connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, #connexion > a {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
 }
 }
 
 /* ------ Changement taille desktop */
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:992px) {
     #connexion>h2 {
     font-size: 2rem;
 }
