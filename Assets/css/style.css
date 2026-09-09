@@ -30,7 +30,6 @@ form > input {
     color: var(--secondary-color);
     width: 300px ;
 }
-
 form > * {
     margin-top: 20px;
     font-family: var(--secondary-font);
@@ -41,7 +40,6 @@ form > * {
     color: var(--primary-color);
     margin-bottom: 20px;
 }
-
 #connexion>a:hover {
     color: var(--contrast-color);
 }
@@ -58,7 +56,6 @@ form > * {
     padding: 6px 12px;
     border-radius: 5px;
 }
-
 .submit-container button:last-child {
     background-color: var(--UI-color);
 }
@@ -105,7 +102,6 @@ section>h2 {
     transition: box-shadow 1s ease-in-out;
     box-shadow: 0px 5px 5px grey;
     border-radius: 7px 7px 7px 7px;
-    
 }
 
 .card_img {
@@ -114,12 +110,10 @@ section>h2 {
     filter: brightness(50%);
     border-radius: 5px 5px 0 0;
 }
-
 .card_img:hover {
     transition : filter 1s ease-in-out;
     filter: brightness(100%);
 }
-
 .card-img-top:hover {
     transition: transform 1s ease-in-out;
     transform: scale(1.05);
@@ -154,7 +148,6 @@ section>h2 {
     border-bottom-color: #545454 ;
     border-right-color: #545454 ;
 }
-
 .cta:hover {
     font-weight: bolder;
 }
@@ -164,4 +157,20 @@ section>h2 {
     display: grid;
     row-gap : 20px;
     justify-items: center;
+    img {
+        max-width: 85vw ;
+        border-radius: 5px;
+    }
+}
+
+/*================ Configuration de la page Outils  */
+.pot-odd {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    h3 {
+        font-family: var(--secondary-font);
+        margin-top: .5rem;
+    }
 }
