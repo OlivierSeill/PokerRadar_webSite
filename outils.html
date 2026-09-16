@@ -82,16 +82,52 @@
     <main class="container-xxl">
         <section class="tool">
             <h2>Le calculateur de côte :</h2>
-            <div class="pot-odd d-grid text-center mx-auto">
+            <div class="pot-odd d-grid text-center mx-auto pt-3">
                 <h3>Côte au pot</h3>
                 <form action="#" method="post">
                     <label for="potSize">Taille du pot :</label>
                     <input type="number" id="potSize" name="potSize" placeholder="150" required>
-                    <label for="betSize">Taille du pot :</label>
+                    <label for="betSize">Montant à rajouter :</label>
                     <input type="number" id="betSize" name="betSize" placeholder="50" required>
+                    <fieldset class="mt-3">
+                        <p>Nombre d'Outs : (optionnel)</p>
+                        <input type="radio" name="nbOuts" value="1" id="one">
+                        <label for="one">1</label>
+                        <input type="radio" name="nbOuts" value="2" id="two">
+                        <label for="two">2</label>
+                        <input type="radio" name="nbOuts" value="3" id="three">
+                        <label for="three">3</label>
+                        <input type="radio" name="nbOuts" value="4" id="four">
+                        <label for="four">4</label>
+                        <input type="radio" name="nbOuts" value="5" id="five">
+                        <label for="five">5</label>
+                        <input type="radio" name="nbOuts" value="6" id="six">
+                        <label for="six">6</label>
+                        <label for="plus">+</label>
+                        <select name="plus" id="plus">
+                            <optgroup label="+">
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                            </optgroup>
+                        </select>
+                    </fieldset>
                 </form>
+                <div id="potOddResult" class="mt-4">
+                    <h4>Résultat</h4>
+                    <p class="button">Équité requise : _____</p>
+                    <p class="button">Équité estimée (Outs) :</p>
+                </div>
             </div>
         </section>
     </main>
+    <script type="module" src="assets/js/pot_odds.js"></script>
 </body>
 </html>
