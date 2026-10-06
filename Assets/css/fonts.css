@@ -60,7 +60,7 @@
     font-size: 1.2rem;
 }
 
-#connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, #connexion > a {
+#connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, main, #connexion > a {
     font-size: 0.8rem;
 }
 
@@ -68,22 +68,20 @@
 /* ------ Changement taille tablette */
 @media only screen and (min-width:768px) {
     #connexion>h2 {
-    font-size: 1.6rem;
-}
-
-#connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, #connexion > a {
-    font-size: 0.9rem;
-}
+        font-size: 1.6rem;
+    }
+    #connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, main, #connexion > a {
+        font-size: 0.9rem;
+    }
 }
 
 /* ------ Changement taille desktop */
 @media only screen and (min-width:992px) {
     #connexion>h2 {
-    font-size: 2rem;
-}
-
-#connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, #connexion > a {
-    font-size: 1rem;
-}
+        font-size: 2rem;
+    }
+    #connectButton, #homeButton, #menuLegales>li>a, li>.nav-link, form, main, #connexion > a {
+        font-size: 1rem;
+    }
 }
 
