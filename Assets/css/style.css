@@ -17,6 +17,10 @@ a {
     background-color: var(--contrast-color);
 }
 
+#connectButton:hover {
+    cursor: pointer;
+}
+
 #connexion>h2 {
     font-family: var(--main-font);
     color: var(--primary-color);
