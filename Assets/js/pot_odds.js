@@ -49,19 +49,20 @@ function sendAnswer(event) {
     event.preventDefault();
     let outsIn = false;
     let numberOfOuts=0;
+    //--Vérification des champs optionnels :
     outsOptions.forEach((element) => {
         if (element.checked) {
             outsIn = true;
             if (element.value == "+") {
-                numberOfOuts = fieldOuts.lastElementChild.value;
+                numberOfOuts = Math.abs(fieldOuts.lastElementChild.value);
             } else {
                 numberOfOuts = element.value;
             }
         }
     });
+    let odd = Math.abs(betSize.valueAsNumber)/(Math.abs(potSize.valueAsNumber)+Math.abs(betSize.valueAsNumber))*100;
+    //--Code à exécuter avec options :
     if ((flop.checked || turn.checked) && outsIn)  {
-        let odd = betSize.valueAsNumber/(potSize.valueAsNumber+betSize.valueAsNumber)*100;
-        answerFields[0].innerText =`Équité requise : ${Math.trunc(odd)}%`;
         let equity = numberOfOuts*2
         if (flop.checked) {
             equity *= 2;
@@ -72,10 +73,10 @@ function sendAnswer(event) {
         } else {
             answerFields[1].style.backgroundColor ="var(--UI-color)";
         }
-    } else {
-        let odd = betSize.valueAsNumber/(potSize.valueAsNumber+betSize.valueAsNumber)*100;
-        answerFields[0].innerText =`Équité requise : ${Math.trunc(odd)}%`;
+    
+        //--Code à éxécuter dans tous les cas :
     }
+    answerFields[0].innerText =`Équité requise : ${Math.trunc(odd)}%`;
 }
 
 //--La fonction qui reset le formulaire :
